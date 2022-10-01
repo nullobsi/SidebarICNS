@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>SidebarICNS</string>
+	<key>CFBundleIconFile</key>
+	<string>SidebarICNS</string>
+	<key>CFBundleIconName</key>
+	<string>SidebarICNS</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nullobsi.SidebarICNS</string>
+	<key>CFBundleName</key>
+	<string>SidebarICNS</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>AWEOO</string>
+</dict>
+</plist>

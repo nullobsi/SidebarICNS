@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0029ABC928E7D52C0019259B /* SidebarICNSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029ABC828E7D52C0019259B /* SidebarICNSApp.swift */; };
+		0029ABCB28E7D52C0019259B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029ABCA28E7D52C0019259B /* ContentView.swift */; };
+		0029ABD028E7D52D0019259B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0029ABCF28E7D52D0019259B /* Preview Assets.xcassets */; };
+		0029ABDF28E7D6300019259B /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029ABDE28E7D6300019259B /* FinderSync.swift */; };
+		0029ABE428E7D6300019259B /* SidebarPlugin.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0029ABDC28E7D6300019259B /* SidebarPlugin.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0029ABF028E7DAD90019259B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0029ABEF28E7DAD90019259B /* Info.plist */; };
+		0029ABF228E7DB320019259B /* SidebarICNS.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 0029ABF128E7DB320019259B /* SidebarICNS.iconset */; settings = {ASSET_TAGS = (A, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0029ABE228E7D6300019259B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0029ABBD28E7D52C0019259B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0029ABDB28E7D6300019259B;
+			remoteInfo = SidebarPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0029ABE828E7D6300019259B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0029ABE428E7D6300019259B /* SidebarPlugin.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0029ABC528E7D52C0019259B /* SidebarICNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarICNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029ABC828E7D52C0019259B /* SidebarICNSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarICNSApp.swift; sourceTree = "<group>"; };
+		0029ABCA28E7D52C0019259B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0029ABCF28E7D52D0019259B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0029ABD128E7D52D0019259B /* SidebarICNS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SidebarICNS.entitlements; sourceTree = "<group>"; };
+		0029ABDC28E7D6300019259B /* SidebarPlugin.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SidebarPlugin.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029ABDE28E7D6300019259B /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		0029ABE028E7D6300019259B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0029ABE128E7D6300019259B /* SidebarPlugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SidebarPlugin.entitlements; sourceTree = "<group>"; };
+		0029ABEF28E7DAD90019259B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0029ABF128E7DB320019259B /* SidebarICNS.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = SidebarICNS.iconset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0029ABC228E7D52C0019259B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029ABD928E7D6300019259B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0029ABBC28E7D52C0019259B = {
+			isa = PBXGroup;
+			children = (
+				0029ABC728E7D52C0019259B /* SidebarICNS */,
+				0029ABDD28E7D6300019259B /* SidebarPlugin */,
+				0029ABC628E7D52C0019259B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0029ABC628E7D52C0019259B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0029ABC528E7D52C0019259B /* SidebarICNS.app */,
+				0029ABDC28E7D6300019259B /* SidebarPlugin.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0029ABC728E7D52C0019259B /* SidebarICNS */ = {
+			isa = PBXGroup;
+			children = (
+				0029ABF128E7DB320019259B /* SidebarICNS.iconset */,
+				0029ABEF28E7DAD90019259B /* Info.plist */,
+				0029ABC828E7D52C0019259B /* SidebarICNSApp.swift */,
+				0029ABCA28E7D52C0019259B /* ContentView.swift */,
+				0029ABD128E7D52D0019259B /* SidebarICNS.entitlements */,
+				0029ABCE28E7D52D0019259B /* Preview Content */,
+			);
+			path = SidebarICNS;
+			sourceTree = "<group>";
+		};
+		0029ABCE28E7D52D0019259B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0029ABCF28E7D52D0019259B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0029ABDD28E7D6300019259B /* SidebarPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				0029ABDE28E7D6300019259B /* FinderSync.swift */,
+				0029ABE028E7D6300019259B /* Info.plist */,
+				0029ABE128E7D6300019259B /* SidebarPlugin.entitlements */,
+			);
+			path = SidebarPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0029ABC428E7D52C0019259B /* SidebarICNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0029ABD428E7D52D0019259B /* Build configuration list for PBXNativeTarget "SidebarICNS" */;
+			buildPhases = (
+				0029ABC128E7D52C0019259B /* Sources */,
+				0029ABC228E7D52C0019259B /* Frameworks */,
+				0029ABC328E7D52C0019259B /* Resources */,
+				0029ABE828E7D6300019259B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0029ABE328E7D6300019259B /* PBXTargetDependency */,
+			);
+			name = SidebarICNS;
+			productName = SidebarICNS;
+			productReference = 0029ABC528E7D52C0019259B /* SidebarICNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0029ABDB28E7D6300019259B /* SidebarPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0029ABE528E7D6300019259B /* Build configuration list for PBXNativeTarget "SidebarPlugin" */;
+			buildPhases = (
+				0029ABD828E7D6300019259B /* Sources */,
+				0029ABD928E7D6300019259B /* Frameworks */,
+				0029ABDA28E7D6300019259B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidebarPlugin;
+			productName = SidebarPlugin;
+			productReference = 0029ABDC28E7D6300019259B /* SidebarPlugin.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0029ABBD28E7D52C0019259B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					A,
+				);
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0029ABC428E7D52C0019259B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					0029ABDB28E7D6300019259B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0029ABC028E7D52C0019259B /* Build configuration list for PBXProject "SidebarICNS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0029ABBC28E7D52C0019259B;
+			productRefGroup = 0029ABC628E7D52C0019259B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0029ABC428E7D52C0019259B /* SidebarICNS */,
+				0029ABDB28E7D6300019259B /* SidebarPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0029ABC328E7D52C0019259B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0029ABD028E7D52D0019259B /* Preview Assets.xcassets in Resources */,
+				0029ABF228E7DB320019259B /* SidebarICNS.iconset in Resources */,
+				0029ABF028E7DAD90019259B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029ABDA28E7D6300019259B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0029ABC128E7D52C0019259B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0029ABCB28E7D52C0019259B /* ContentView.swift in Sources */,
+				0029ABC928E7D52C0019259B /* SidebarICNSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029ABD828E7D6300019259B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0029ABDF28E7D6300019259B /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0029ABE328E7D6300019259B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0029ABDB28E7D6300019259B /* SidebarPlugin */;
+			targetProxy = 0029ABE228E7D6300019259B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0029ABD228E7D52D0019259B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0029ABD328E7D52D0019259B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0029ABD528E7D52D0019259B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SidebarICNS/SidebarICNS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SidebarICNS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SidebarICNS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nullobsi.SidebarICNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0029ABD628E7D52D0019259B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SidebarICNS/SidebarICNS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SidebarICNS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SidebarICNS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nullobsi.SidebarICNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0029ABE628E7D6300019259B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SidebarPlugin/SidebarPlugin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SidebarPlugin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SidebarPlugin;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nullobsi.SidebarICNS.SidebarPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0029ABE728E7D6300019259B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SidebarPlugin/SidebarPlugin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SidebarPlugin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SidebarPlugin;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nullobsi.SidebarICNS.SidebarPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0029ABC028E7D52C0019259B /* Build configuration list for PBXProject "SidebarICNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0029ABD228E7D52D0019259B /* Debug */,
+				0029ABD328E7D52D0019259B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0029ABD428E7D52D0019259B /* Build configuration list for PBXNativeTarget "SidebarICNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0029ABD528E7D52D0019259B /* Debug */,
+				0029ABD628E7D52D0019259B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0029ABE528E7D6300019259B /* Build configuration list for PBXNativeTarget "SidebarPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0029ABE628E7D6300019259B /* Debug */,
+				0029ABE728E7D6300019259B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0029ABBD28E7D52C0019259B /* Project object */;
+}
